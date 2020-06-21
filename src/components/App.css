@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	height: 100vh;
+	background-color: #f1f1f1;
+	padding: 10px;
+	padding-right: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	background-color: #f1f1f1;
+	padding: 10px;
+	padding-left: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.cardHeader {
+	display: flex;
+	/* justify-content: center; */
+	padding-left: 10px;
+	padding-right: 10px;
+	align-items: center;
+	background: rgb(86, 86, 86);
+	background: linear-gradient(
+		270deg,
+		rgba(86, 86, 86, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+	color: white;
+	width: 100%;
+	height: 50px;
+	margin-top: -10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.card {
+	background-color: white;
+	width: 100%;
+	flex-grow: 1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	/* padding: 15px; */
+}
+
+.logo {
+	height: 70%;
+	margin-right: 10px;
+}
+
+#markdown-content {
+	width: 100%;
+	padding: 15px;
+	font-size: 1.2rem;
+	line-height: 1.7rem;
+	height: 100%;
+	border: none;
+	outline: none;
+}
+
+.outputD {
+	padding: 15px;
+}
+
+#outputCard {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#mkOutput {
+	padding: 10px;
+}
+
+.btnGroup {
+	position: absolute;
+	right: 0;
+}
+
+.btn {
+	background-color: rgb(13, 146, 146);
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	transition: 0.5s;
+	margin-right: 10px;
+}
+
+.btn:hover {
+	background-color: rgb(31, 207, 207);
+	color: black;
+	cursor: pointer;
+}
