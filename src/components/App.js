@@ -1,16 +1,11 @@
 import "./App.css";
 import React, { Fragment } from "react";
 import ReactMarkdown from "react-markdown";
-// import { Controlled as CodeMirror } from "react-codemirror2";
-// import { PDFViewer } from "@react-pdf/renderer";
-// import ReactPDF from "@react-pdf/renderer";
 
 import html2canvas from "html2canvas";
 import * as jsPDF from "jspdf";
 
 import logo from "../assets/images/logo.png";
-
-import Document from "./Document";
 
 const initText = `# Welcome to Binary Crystal Notepad
 #### This can help you create formated document with easy.
